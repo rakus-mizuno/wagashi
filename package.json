@@ -1,0 +1,35 @@
+{
+  "name": "wagashi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakus-mizuno/wagashi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rakus-mizuno/wagashi/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "akafuku:build": "pnpm --filter akafuku build",
+    "zip": "tsx src/zip.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@tanstack/eslint-plugin-query": "^5.68.0",
+    "@tsconfig/node-lts": "^22.0.1",
+    "@types/node": "^22.13.17",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "lefthook": "^1.11.6",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tsx": "^4.19.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1"
+  }
+}

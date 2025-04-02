@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: var(--color-indigo-600);
+  --color-primary-shade: var(--color-indigo-700);
+  --color-primary-tint: var(--color-indigo-500);
+  --color-primary-contrast: var(--color-stone-200);
+  --color-secondary: var(--color-stone-700);
+  --color-secondary-shade: var(--color-stone-800);
+  --color-secondary-tint: var(--color-stone-600);
+  --color-secondary-contrast: var(--color-stone-700);
+  --color-danger: var(--color-pink-700);
+  --color-danger-shade: var(--color-pink-800);
+  --color-danger-tint: var(--color-pink-600);
+  --color-danger-contrast: var(--color-stone-200);
+  --color-light: var(--color-stone-200);
+  --color-light-shade: var(--color-stone-300);
+  --color-light-tint: var(--color-stone-100);
+  --color-light-contrast: var(--color-stone-900);
+  --color-medium: var(--color-stone-500);
+  --color-medium-shade: var(--color-stone-600);
+  --color-medium-tint: var(--color-stone-400);
+  --color-medium-contrast: var(--color-stone-200);
+  --color-dark: var(--color-stone-800);
+  --color-dark-shade: var(--color-stone-900);
+  --color-dark-tint: var(--color-stone-700);
+  --color-dark-contrast: var(--color-stone-200);
+  --color-text-primary: var(--color-stone-900);
+  --color-text-secondary: var(--color-stone-700);
+}
+
+@utility container {
+  @apply mx-auto px-4 md:px-6 lg:px-8;
+}
